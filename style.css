@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+margin-top: 1vw;
+padding: 0vw 10vw 1vw 10vw;
+display: flex;
+flex-direction: row-reverse;
+align-items: baseline;
+border-bottom: 2px solid black;
+}
+
+.bubu {
+    padding-right: 50vw;
+}
+
+a {
+    padding: 0.5vw 1vw 0,5vw 1vw;
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    background-color: rgb(7, 137, 137);
+    color: white;
+    border-radius: 5px;
+}
+
+.logo {
+    background-color: rgb(0, 110, 110);
+    border-radius: 5px;
+    padding: 0.1vw 0.1vw 0.1vw 0.1vw;
+    color: white;
+}
+
+img {
+    width: 20%;
+    padding: 1vw;
+
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.headline {
+    background-image: url(foto.jpg);
+    background-position: center;
+    background-size: 70%;
+    color:rgb(255, 255, 255);
+    padding: 17vw 10vw 1vw 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.form {
+    padding: 0.5vw 1vw 0,5vw 1vw;
+}
+
+.infolink {
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    color: white;
+}
+
+.link {
+    padding: 5px;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.linkje{
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+    color: white;
+    background-color: darkslategray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 25vw;
+    padding-top: 2vw;
+    background-color: rgb(210, 210, 241);
+}
+
+label{
+    padding: 7px;
+}
+input{
+    margin: 5px;
+}
+
+button {
+    margin-top: 1vw;
+}
